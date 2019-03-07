@@ -26,79 +26,89 @@
             <div class="title col-md-12">
                 <h1 class="title">Fun Facts Trivia!</h1>
 
+                <!--timer start button and count down-->
+                <div class="row">
+                    <div class="timerCountDown col-md-12">
+                        <p id="trackTime" style="display:none">Time remaining: <span id="counterDisplay">120</span></p>
+                        <button id="start">Start</button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="triviaQuestions col-md-12">
-            <p class="question1">Trivia Question 1</p>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+    <div id="questions" style="display:none">
+        <div class="row">
+            <div class="triviaQuestions col-md-12">
+                <p class="question1">Trivia Question 1</p>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="triviaQuestions col-md-12">
-            <p class="question2">Trivia Question 2</p>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+        <div class="row">
+            <div class="triviaQuestions col-md-12">
+                <p class="question2">Trivia Question 2</p>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="triviaQuestions col-md-12">
-            <p class="question3">Trivia Question 3</p>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+        <div class="row">
+            <div class="triviaQuestions col-md-12">
+                <p class="question3">Trivia Question 3</p>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="triviaQuestions col-md-12">
-            <p class="question4">Trivia Question 4</p>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+        <div class="row">
+            <div class="triviaQuestions col-md-12">
+                <p class="question4">Trivia Question 4</p>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="triviaQuestions col-md-12">
-            <p class="question5">Trivia Question 5</p>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+        <div class="row">
+            <div class="triviaQuestions col-md-12">
+                <p class="question5">Trivia Question 5</p>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="triviaQuestions col-md-12">
-            <p class="question6">Trivia Question 6</p>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+        <div class="row">
+            <div class="triviaQuestions col-md-12">
+                <p class="question6">Trivia Question 6</p>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="triviaQuestions col-md-12">
-            <p class="question7">Trivia Question 7</p>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+        <div class="row">
+            <div class="triviaQuestions col-md-12">
+                <p class="question7">Trivia Question 7</p>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="triviaQuestions col-md-12">
-            <p class="question8">Trivia Question 8</p>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-            <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+        <div class="row">
+            <div class="triviaQuestions col-md-12">
+                <p class="question8">Trivia Question 8</p>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
+                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            </div>
         </div>
     </div>
 
@@ -113,7 +123,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="assets/javascript/game.js"></script>
+    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
