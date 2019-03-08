@@ -1,7 +1,5 @@
 //JavaScript
 
-//create start button for timer
-
 //global variables
 var clockRunning = false;
 var timer;
@@ -25,8 +23,7 @@ function start() {
 
 }
 
-
-
+//timer running until out of time and not speeding up
 function onInterval() {
     duration--;
     $("#counterDisplay").text(duration);
@@ -38,20 +35,7 @@ function onInterval() {
     }
 }
 
-
-
-
-//create way to track answers and show results 1-correct answers, 2-incorrect answers, 3-unanswered
-
-//how many answered correctly?
-
-
-
-//how many answered incorrectly?
-
-//how many unanswered?
-
-
+//track answers and show results 1-correct answers, 2-incorrect answers, 3-unanswered
 function checkAnswers() {
     var correctAnswer = 0;
     var incorrectAnswer = 0;
@@ -62,7 +46,7 @@ function checkAnswers() {
         var answer = questionDiv.find("input").filter(":checked");
         if (answer.length != 1) {
             noAnswer++;
-    
+
         }
         else {
             var isCorrect = $(answer[0]).data("answer");
@@ -71,22 +55,20 @@ function checkAnswers() {
             }
             else {
                 incorrectAnswer++;
-            
             }
-
         }
-
     }
 
+    //print answer scores
     $("#correctAnswers").text(correctAnswer);
     $("#incorrectAnswers").text(incorrectAnswer);
     $("#noAnswers").text(noAnswer);
 
-
+    //hide start, questions, and timer on final score screen
     $("#start").hide();
     $("#questions").hide();
     $("#trackTime").hide();
 
-$("#score").show();
-
+    //show score on final screen
+    $("#score").show();
 }

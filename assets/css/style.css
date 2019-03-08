@@ -5,27 +5,62 @@ body {
     background-size: 100%;
     background-attachment: fixed;
     overflow: scroll;
-
 }
 
 .title {
     text-align: center;
-    padding: 20px;
+    margin-top: 50px;
+    /* TODO: find prettier font */
+}
+
+#start {
+    border-radius: 12px;
+    margin-top: 15px;
+    padding: 15px;
+    width: 100px;
+    /* TODO: can make prettier button? */
+}
+
+#trackTime {
+    font-size: 35px;
 }
 
 .triviaQuestions {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.triviaQuestions p {
+    font-size: 40px;
+}
+
+.triviaQuestions input {
+    width: 30px;
+    vertical-align: middle;
+}
+
+#questions {
+    margin-top: 20px;
     text-align: center;
-}
-
-.question1 {
-    font-size: 20px;
-}
-
-.question2, .question3, .question4, .question5, .question6, .question7, .question8, .question9, .question10 {
-    padding-top: 40px;
-    font-size: 20px;
+    font-size: 35px;
+    background-color: rgba(226, 226, 243, .80);
+    font-size: 30px;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .answerOptions {
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.lastPage {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(226, 226, 243, .80);
+    align-content: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 30px;
+    padding: 20px;
 }
