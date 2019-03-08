@@ -16,6 +16,9 @@
     <!-- link to css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+
     <title>Seattle Trivia</title>
 
 </head>
@@ -30,14 +33,14 @@
                 <div class="row">
                     <div class="timerCountDown col-md-12">
                         <p id="trackTime" style="display:none">Time remaining: <span id="counterDisplay">120</span></p>
-                        <button id="start">Start</button>
+                        <button id="start" type="button" class="btn btn-light">Start</button>
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-    
+
     <!--trivia questions and answers-->
     <div id="questions" style="display:none">
         <div class="row">
@@ -53,7 +56,8 @@
             <div id="question2" class="triviaQuestions col-md-12">
                 <p>Which of these is not a Seattle landmark?</p>
                 <label class="answerOptions"><input type="radio" name="qanda2">Space Needle</label>
-                <label class="answerOptions"><input type="radio" name="qanda2" data-answer="true">Museum of Grunge Culture</label>
+                <label class="answerOptions"><input type="radio" name="qanda2" data-answer="true">Museum of Grunge
+                    Culture</label>
                 <label class="answerOptions"><input type="radio" name="qanda2">Pike Place Market</label>
                 <label class="answerOptions"><input type="radio" name="qanda2">Museum of Pop Culture</label>
             </div>
@@ -70,7 +74,8 @@
         <div class="row">
             <div id="question4" class="triviaQuestions col-md-12">
                 <p>Which one of the following is made in Seattle?</p>
-                <label class="answerOptions"><input type="radio" name="qanda4" data-answer="true">Beechers Cheese</label>
+                <label class="answerOptions"><input type="radio" name="qanda4" data-answer="true">Beechers
+                    Cheese</label>
                 <label class="answerOptions"><input type="radio" name="qanda4">Skittles</label>
                 <label class="answerOptions"><input type="radio" name="qanda4">Tillamook Cheese</label>
                 <label class="answerOptions"><input type="radio" name="qanda4">Breyers Ice Cream</label>
@@ -81,7 +86,8 @@
                 <p>Which Space Needle fact below is false?</p>
                 <label class="answerOptions"><input type="radio" name="qanda5">The Space Needle was built in 1962
                 </label>
-                <label class="answerOptions"><input type="radio" name="qanda5" data-answer="true">The Space Needle is home to a
+                <label class="answerOptions"><input type="radio" name="qanda5" data-answer="true">The Space Needle is
+                    home to a
                     full-service restaurant</label>
                 <label class="answerOptions"><input type="radio" name="qanda5">The Space Needle was built for a
                     World’s Fair</label>
@@ -97,7 +103,8 @@
                 <label class="answerOptions"><input type="radio" name="qanda6">The first strike in the U.S.</label>
                 <label class="answerOptions"><input type="radio" name="qanda6">The world’s first floating bridge
                 </label>
-                <label class="answerOptions"><input type="radio" name="qanda6" data-answer="true">The world’s first 7/11</label>
+                <label class="answerOptions"><input type="radio" name="qanda6" data-answer="true">The world’s first
+                    7/11</label>
             </div>
         </div>
         <div class="row">
@@ -107,7 +114,8 @@
                     the country</label>
                 <label class="answerOptions"><input type="radio" name="qanda7">Seattleites buy more sunglasses per
                     capita than any other U.S. city</label>
-                <label class="answerOptions"><input type="radio" name="qanda7" data-answer="true">Seattle has the largest migratory
+                <label class="answerOptions"><input type="radio" name="qanda7" data-answer="true">Seattle has the
+                    largest migratory
                     elk herd in the country </label>
                 <label class="answerOptions"><input type="radio" name="qanda7">Seattle hosts more glass blowing
                     studios than any other U.S. city</label>
@@ -122,7 +130,8 @@
                     than in any other U.S. city</label>
                 <label class="answerOptions"><input type="radio" name="qanda8">Seattle was the first city to have
                     bicycle cops</label>
-                <label class="answerOptions"><input type="radio" name="qanda8" data-answer="true">Spray paint was invented in Seattle
+                <label class="answerOptions"><input type="radio" name="qanda8" data-answer="true">Spray paint was
+                    invented in Seattle
                 </label>
             </div>
         </div>
@@ -147,15 +156,15 @@
         </div>
     </div>
 
-<div class="row lastPage" id="score" style="display:none">
-    <div class="col-md-12">
+    <div class="row lastPage" id="score" style="display:none">
+        <div class="col-md-12">
             <h2>Time's up!</h2>
             <h3>Correct Answers: <span id="correctAnswers"></span></h3>
             <h3>Incorrect Answers: <span id="incorrectAnswers"></span></h3>
             <h3>Unanswered: <span id="noAnswers"></span></h3>
 
+        </div>
     </div>
-</div>
 
 
 

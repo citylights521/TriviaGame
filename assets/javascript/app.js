@@ -20,7 +20,6 @@ function start() {
         timer = setInterval(onInterval, 1000);
         clockRunning = true;
     }
-
 }
 
 //timer running until out of time and not speeding up
@@ -46,7 +45,6 @@ function checkAnswers() {
         var answer = questionDiv.find("input").filter(":checked");
         if (answer.length != 1) {
             noAnswer++;
-
         }
         else {
             var isCorrect = $(answer[0]).data("answer");
