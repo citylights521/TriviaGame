@@ -1,7 +1,11 @@
 /* style.css */
 
 body {
-    background-image: url("../images/black-and-white-books-education-433333.jpg");
+    background-image: url("../images/seattle.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow: scroll;
+
 }
 
 .title {
@@ -17,7 +21,7 @@ body {
     font-size: 20px;
 }
 
-.question2, .question3, .question4, .question5, .question6, .question7, .question8 {
+.question2, .question3, .question4, .question5, .question6, .question7, .question8, .question9, .question10 {
     padding-top: 40px;
     font-size: 20px;
 }

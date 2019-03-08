@@ -16,7 +16,7 @@
     <!-- link to css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Fun Fact Trivia</title>
+    <title>Seattle Trivia</title>
 
 </head>
 
@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="title col-md-12">
-                <h1 class="title">Fun Facts Trivia!</h1>
+                <h1 class="title">Seattle Trivia!</h1>
 
                 <!--timer start button and count down-->
                 <div class="row">
@@ -37,80 +37,126 @@
             </div>
         </div>
     </div>
+    
+    <!--trivia questions and answers-->
     <div id="questions" style="display:none">
         <div class="row">
-            <div class="triviaQuestions col-md-12">
-                <p class="question1">Trivia Question 1</p>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            <div id="question1" class="triviaQuestions col-md-12">
+                <p>Which musician is not from Seattle?</p>
+                <label class="answerOptions"><input type="radio" >Maklemore</label>
+                <label class="answerOptions"><input type="radio" >Pearl Jam</label>
+                <label class="answerOptions"><input type="radio" data-answer="true">Fleetwood Mac</label>
+                <label class="answerOptions"><input type="radio" >Nirvana</label>
             </div>
         </div>
         <div class="row">
-            <div class="triviaQuestions col-md-12">
-                <p class="question2">Trivia Question 2</p>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            <div id="question2" class="triviaQuestions col-md-12">
+                <p>Which of these is not a Seattle landmark?</p>
+                <label class="answerOptions"><input type="radio" >Space Needle</label>
+                <label class="answerOptions"><input type="radio" data-answer="true">Museum of Grunge Culture</label>
+                <label class="answerOptions"><input type="radio" >Pike Place Market</label>
+                <label class="answerOptions"><input type="radio" >Museum of Pop Culture</label>
             </div>
         </div>
         <div class="row">
-            <div class="triviaQuestions col-md-12">
-                <p class="question3">Trivia Question 3</p>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            <div id="question3" class="triviaQuestions col-md-12">
+                <p>Which company is not headquartered in Seattle?</p>
+                <label class="answerOptions"><input type="radio" >Nordstrom</label>
+                <label class="answerOptions"><input type="radio" >Starbucks</label>
+                <label class="answerOptions"><input type="radio" >Amazon</label>
+                <label class="answerOptions"><input type="radio" data-answer="true">Dell</label>
             </div>
         </div>
         <div class="row">
-            <div class="triviaQuestions col-md-12">
-                <p class="question4">Trivia Question 4</p>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            <div id="question4" class="triviaQuestions col-md-12">
+                <p>Which one of the following is made in Seattle?</p>
+                <label class="answerOptions"><input type="radio" data-answer="true">Beechers Cheese</label>
+                <label class="answerOptions"><input type="radio" >Skittles</label>
+                <label class="answerOptions"><input type="radio" >Tillamook Cheese</label>
+                <label class="answerOptions"><input type="radio" >Breyers Ice Cream</label>
             </div>
         </div>
         <div class="row">
-            <div class="triviaQuestions col-md-12">
-                <p class="question5">Trivia Question 5</p>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            <div id="question5" class="triviaQuestions col-md-12">
+                <p>Which Space Needle fact below is false?</p>
+                <label class="answerOptions"><input type="radio" >The Space Needle was built in 1962.
+                </label>
+                <label class="answerOptions"><input type="radio" data-answer="true">The Space Needle is home to a
+                    full-service restaurant.</label>
+                <label class="answerOptions"><input type="radio" >The Space Needle was built for a
+                    World’s Fair.</label>
+                <label class="answerOptions"><input type="radio" >The Space Needle is home to the only
+                    rotating glass floor in the world.</label>
             </div>
         </div>
         <div class="row">
-            <div class="triviaQuestions col-md-12">
-                <p class="question6">Trivia Question 6</p>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            <div id="question6" class="triviaQuestions col-md-12">
+                <p>Seattle was not home to:</p>
+                <label class="answerOptions"><input type="radio" >The world’s first gas station.
+                </label>
+                <label class="answerOptions"><input type="radio" >The first strike in the U.S.</label>
+                <label class="answerOptions"><input type="radio" >The world’s first floating bridge.
+                </label>
+                <label class="answerOptions"><input type="radio" data-answer="true">The world’s first 7/11.</label>
             </div>
         </div>
         <div class="row">
-            <div class="triviaQuestions col-md-12">
-                <p class="question7">Trivia Question 7</p>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            <div id="question7" class="triviaQuestions col-md-12">
+                <p>Which is not true about Seattle?</p>
+                <label class="answerOptions"><input type="radio" >Seattle is the most literate city in
+                    the country.</label>
+                <label class="answerOptions"><input type="radio" >Seattleites buy more sunglasses per
+                    capita than any other U.S. city.</label>
+                <label class="answerOptions"><input type="radio" data-answer="true">Seattle has the largest migratory
+                    elk herd in the country. </label>
+                <label class="answerOptions"><input type="radio" >Seattle hosts more glass blowing
+                    studios than any other U.S. city.</label>
             </div>
         </div>
         <div class="row">
-            <div class="triviaQuestions col-md-12">
-                <p class="question8">Trivia Question 8</p>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 1</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 2</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 3</lable>
-                <lable class="answerOptions"><input type="radio" name="radioButton">Answer Option 4</lable>
+            <div id="question8" class="triviaQuestions col-md-12">
+                <p>Which of the following about Seattle is untrue?</p>
+                <label class="answerOptions"><input type="radio" >Seattle had the first female mayor
+                    in any U.S. city.</label>
+                <label class="answerOptions"><input type="radio" >More people bike to work in Seattle
+                    than in any other U.S. city.</label>
+                <label class="answerOptions"><input type="radio" >Seattle was the first city to have
+                    bicycle cops.</label>
+                <label class="answerOptions"><input type="radio" data-answer="true">Spray paint was invented in Seattle.
+                </label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="question9" class="triviaQuestions col-md-12">
+                <p>Which actress did not turn down the part of Annie in Sleepless in Seattle?</p>
+                <label class="answerOptions"><input type="radio" data-answer="true">Meg Ryan</label>
+                <label class="answerOptions"><input type="radio" >Kim Basinger</label>
+                <label class="answerOptions"><input type="radio" >Michelle Pfeiffer</label>
+                <label class="answerOptions"><input type="radio" >Julia Roberts</label>
+            </div>
+        </div>
+        <div class="row">
+            <div id="question10" class="triviaQuestions col-md-12">
+                <p>Which city gets the least rainfall?</p>
+                <label class="answerOptions"><input type="radio" >Houston</label>
+                <label class="answerOptions"><input type="radio" >Chicago</label>
+                <label class="answerOptions"><input type="radio" >New York</label>
+                <label class="answerOptions"><input type="radio" data-answer="true">Seattle</label>
             </div>
         </div>
     </div>
+
+<div class="row" id="score" style="display:none">
+    <div class="col-md-12">
+            <h2>Time's up!</h2>
+            <h3>Correct Answers: <span id="correctAnswers"></span></h3>
+            <h3>Incorrect Answers: <span id="incorrectAnswers"></span></h3>
+            <h3>Unanswered: <span id="noAnswers"></span></h3>
+
+    </div>
+</div>
+
 
 
     <!-- game.js, jQuery, Popper.js, Bootstrap JS -->
