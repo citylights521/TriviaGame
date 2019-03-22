@@ -22,3 +22,6 @@ This game is deceptive. It looks so simple, but coming up with the JavaScript to
 ## Seattle Fact Source:
 https://travelingwiththejones.com/2014/09/03/42-fun-facts-about-seattle-washington/
  in addition to author's knowledge. 
+
+## Link:
+https://citylights521.github.io/TriviaGame/
